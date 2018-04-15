@@ -34,5 +34,4 @@ class Posts extends Component {
 	}
 }
 
-
 export default Posts;
