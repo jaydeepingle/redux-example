@@ -9,9 +9,7 @@ class Posts extends Component {
 	} 
 
 	componentWillMount() {
-		console.log(123);
 		// We can use axios here instead of fetch
-
 		fetch('https://jsonplaceholder.typicode.com/posts')
 			.then(res => res.json())
 			.then(data => this.setState({ posts: data }));
